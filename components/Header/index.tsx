@@ -8,8 +8,11 @@ import styles from "../../styles/Header.module.css";
 const Header = () => (
     <div className={styles.header}>
         <div className={styles.title}>
-            <p>portfolio of</p>
-            <h1>uekann</h1>
+            {/* <p>portfolio of</p>
+            <h1>uekann</h1> */}
+            <Link href="/">
+                <Image src="/title_logo.svg" alt="uekann" width={434} height={109} />
+            </Link>
         </div>
         <div className={styles.contact}>
             <Link href="https://www.instagram.com/uekan8">

@@ -13,10 +13,9 @@ div.header div.title {
     float: left;
 }
 
-div.title p {
+/* div.title p {
     font-size: 20px;
     font-family: 'Spartan Regular';
-    /* font-weight: Regular; */
     color: #AE7F22;
     margin: 0;
     padding-left: 5px;
@@ -27,13 +26,12 @@ div.title p {
 div.title h1 {
     font-size: 96px;
     font-family: 'Spartan ExtraBold';
-    /* font-weight: ExtraBold; */
     color: #03989E;
     margin: 0px;
     padding: 0;
     position: relative;
     top: 10px;
-}
+} */
 
 div.header div.contact {
     bottom: 20px;
