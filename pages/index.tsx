@@ -8,7 +8,7 @@ const IndexPage = () => (
       <title>Uekann</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       {/* favicon */}
-      <link rel="icon" href="/title_logo.svg" />
+      <link rel="icon" href="/favicon.svg" />
     </Head>
     <Header />
     <div>
