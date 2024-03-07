@@ -1,5 +1,6 @@
 div.header {
-    background-color: #242626;
+    /* background-color: #242626; */
+    background-color: black;
     width: 100vw;
     height: 150px;
     color: rgb(255, 255, 255, 0.81);
