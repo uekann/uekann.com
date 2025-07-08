@@ -1,31 +1,21 @@
+@import "tailwindcss";
+
 @font-face {
     font-family: "Spartan ExtraBold";
-    /* font-weight: ExtraBold; */
     src: url('../fonts/Spartan/Spartan-ExtraBold.ttf') format("truetype");
 }
 
 @font-face {
     font-family: "Spartan Regular";
-    /* font-weight: Regular; */
     src: url('../fonts/Spartan/Spartan-Regular.ttf') format("truetype");
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    background-color: black;
-    /* flex-direction: column; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    height: 100vh;
-    font-size: 1.5rem;
-    font-family: "Spartan Regular";
-    color: white;
+@theme {
+  --color-dark-gray: #242426;
+  --font-family-spartan-extrabold: "Spartan ExtraBold", sans-serif;
+  --font-family-spartan-regular: "Spartan Regular", sans-serif;
 }
 
-h1 {
-    font-size: 2.5rem;
-    padding-left: 60px;
-    padding-top: 60px;
+body {
+  font-family: "Spartan Regular", sans-serif;
 }
